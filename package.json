@@ -1,0 +1,34 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Suedeo Backend Strapi",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-documentation": "^4.10",
+    "@strapi/plugin-i18n": "4.10",
+    "@strapi/plugin-users-permissions": "4.10",
+    "@strapi/provider-email-sendgrid": "^4.10",
+    "@strapi/strapi": "4.10",
+    "connection": "^1.4.0",
+    "mysql": "^2.18.1",
+    "pg": "^8.11.0",
+    "request": "^2.88.2"
+  },
+  "author": {
+    "name": "Reece Walsh"
+  },
+  "strapi": {
+    "uuid": "c021dbc7-ecde-4480-b789-291488138599"
+  },
+  "engines": {
+    "node": "14.21.3",
+    "npm": "9.6.7"
+  },
+  "license": "MIT"
+}
