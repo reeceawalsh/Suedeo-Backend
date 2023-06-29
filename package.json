@@ -18,13 +18,14 @@
     "connection": "^1.4.0",
     "mysql": "^2.18.1",
     "pg": "^8.11.0",
+    "pg-connection-string": "^2.6.1",
     "request": "^2.88.2"
   },
   "author": {
     "name": "Reece Walsh"
   },
   "strapi": {
-    "uuid": "c021dbc7-ecde-4480-b789-291488138599"
+    "uuid": "c021dbc7-ecde-4480-b789-291488138598"
   },
   "engines": {
     "node": "14.21.3",
